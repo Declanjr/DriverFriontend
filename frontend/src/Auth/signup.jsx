@@ -56,7 +56,7 @@ const Signup = () => {
     };
 
     // Send data to server
-    fetch('/signup', {
+    fetch('https://driverbackend.onrender.com/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
