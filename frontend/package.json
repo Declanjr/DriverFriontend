@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=80&&react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://driverbackend.onrender.com"
+  "proxy": "https://driverbackend.onrender.com",
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
+  }
 }
